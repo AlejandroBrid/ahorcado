@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JUEGO DEL AHORCADO</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <h1>AHORCADO</h1>
+    <button id="jugar">JUGAR</button>
+    <p id="palabra"></p>
+    <img src="./imagenes/ahorcado.png" alt="Imagen de juego ahorcado" />
+    <h2>Te quedan <span id="vidas">6</span> intentos.</h2>
+    <section id="letras">
+      <button id="a">A</button>
+      <button id="b">B</button>
+      <button id="c">C</button>
+      <button id="d">D</button>
+      <button id="e">E</button>
+      <button id="f">F</button>
+      <button id="g">G</button>
+      <button id="h">H</button>
+      <button id="i">I</button>
+      <button id="j">J</button>
+      <button id="k">K</button>
+      <button id="l">L</button>
+      <button id="m">M</button>
+      <button id="n">N</button>
+      <button id="ñ">Ñ</button>
+      <button id="o">O</button>
+      <button id="p">P</button>
+      <button id="q">Q</button>
+      <button id="r">R</button>
+      <button id="s">S</button>
+      <button id="t">T</button>
+      <button id="u">U</button>
+      <button id="v">V</button>
+      <button id="w">W</button>
+      <button id="x">X</button>
+      <button id="y">Y</button>
+      <button id="z">Z</button>
+    </section>
+
+    <div id="popup" class="popup">
+      <div class="popupContenido">
+        <p id="popupMensaje"></p>
+        <input
+          type="button"
+          value="Reiniciar"
+          id="reiniciar"
+          onclick="reiniciar()"
+        />
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
